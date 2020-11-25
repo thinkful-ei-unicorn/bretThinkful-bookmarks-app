@@ -69,7 +69,7 @@ function generateUserRating(rating) {
 }
 
 function generateAddBookmark() {
-  let view = `<h1>Your Bookmarks</h1>
+  let view = `<h1>My Bookmarks</h1>
           <form id="add-bookmark-form">
             <h3>Add New Bookmark </h3>
               <input name="url" type="text" placeholder="http://www.example.com" id="add-bookmark-address" aria-label="Bookmark URL">
