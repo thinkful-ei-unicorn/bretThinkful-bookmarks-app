@@ -1,5 +1,5 @@
   
-'use strict'
+'use strict';
 
 import store from './store.js';
 import api from './api.js'

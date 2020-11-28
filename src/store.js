@@ -1,3 +1,4 @@
+'use strict';
 
 const findById = function (id) {
     return this.bookmarks.find(currentItem => currentItem.id === id);

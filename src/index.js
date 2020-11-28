@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 import bookmarkList from './bookmark.js'
 import api from './api.js';
