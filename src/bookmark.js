@@ -72,9 +72,9 @@ function generateAddBookmark() {
   let view = `<h1>My Bookmarks</h1>
           <form id="add-bookmark-form">
             <h3>Add New Bookmark </h3>
-              <input name="url" type="text" placeholder="http://www.example.com" id="add-bookmark-address" aria-label="Bookmark URL">
+              <input name="url" type="text" placeholder="http://www.example.com" id="add-bookmark-address" aria-label="Bookmark URL" required>
             <div>
-              <input name="title" type="text" placeholder="title here" id="add-bookmark-name">
+              <input name="title" type="text" placeholder="title here" id="add-bookmark-name" required>
               <select name="rating" id="cars">
                 <option value="1 stars">⭐ star</option>
                 <option value="2 stars">⭐⭐ stars</option>
@@ -157,7 +157,7 @@ const generateError = function (message) {
   return `
       <section class="error-content">
         <button id="cancel-error">X</button>
-        <p>${message}</p>
+        <p>${error}</p>
       </section>
     `;
 };
