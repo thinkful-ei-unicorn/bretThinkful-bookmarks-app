@@ -4,15 +4,21 @@
     box-sizing: border-box;
     font-family: fantasy;
   }
+
+html {
+  display:block;
+}
+  body {
+    display: block;
+  }
 main {
     display: flex;
     flex-direction: column;
   }
   
 .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    display: inline;
+text-align: center;
+float: left;
   }
   
 h1 {
@@ -134,7 +140,7 @@ input[type="submit"] {
     height: 40px;
   }
   
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 748px) {
 #new-bookmark-form,
 h1,
 .bookmark-title {
