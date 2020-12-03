@@ -29,7 +29,7 @@
   }
   
   header form {
-    margin: 35px 0 0 15px;
+    margin: 45px 0 0 15px;
     float: left;
   }
   
@@ -59,7 +59,11 @@
     background-color: rgb(228, 134, 13);
     border-radius: 7px;
   }
-  
+  fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
   a {
     text-decoration: none;
   }
@@ -83,6 +87,7 @@
     border-radius: 5px;
   }
   
+  
   button.js-header-button {
     height: 60px;
     width: 160px;
@@ -90,7 +95,7 @@
   }
   
   .bookmark-panel {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .bookmark-list-items {
@@ -149,6 +154,7 @@
   
   .add-bookmark {
     border: black;
+  
   }
   
   .add-bookmark-title, 

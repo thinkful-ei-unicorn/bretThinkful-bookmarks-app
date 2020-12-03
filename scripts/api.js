@@ -1,7 +1,7 @@
 'use strict';
 
 const api = (function(){
-  const BASE_URL = 'https://thinkful-list-api.herokuapp.com/bret';
+  const BASE_URL = 'https://thinkful-list-api.herokuapp.com/bret/bookmarks';
 
 
   const getItems = function(callback){
