@@ -1,16 +1,19 @@
 * {
     box-sizing: border-box;
   }
-  
+  html {
+    display: flex;
+  }
   body {
     font-family: fantasy;
     background-color: rgb(19, 12, 2);
+    margin: 0;
   }
   
   header {
     display: inline-block;
     padding: 8px;
-    margin: 0 auto;
+    margin: 0;
   }
   
   h1 {
@@ -21,11 +24,11 @@
   }
   
   h2 {
-    font-size: 120%;
+    font-size: 100%;
   }
   
   h3 {
-    font-size: 120%;
+    font-size: 100%;
   }
   
   header form {
@@ -59,11 +62,7 @@
     background-color: rgb(228, 134, 13);
     border-radius: 7px;
   }
-  fieldset {
-    display: flex;
-    width: auto;
-    height: auto;
-  }
+
   a {
     text-decoration: none;
   }
@@ -77,6 +76,7 @@
   }
   
   .container {
+
     font-size: 120%;
     max-width: 600px;
     min-width: 280px;
