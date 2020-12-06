@@ -22,8 +22,9 @@ const bookmarkList = (function(){
   function generateExpandedView(item){
     
     return `
+    
       <li class="expand-bookmark-view js-expand-bookmark-view" data-item-id="${item.id}">
-        <h2>${item.title}</h2>
+        <h3>${item.title}</h3>
         <form id="js-close-expanded" class="header-right js-header-right">
         <p class="expanded-stars js-expanded-stars">${item.rating} Stars</p>
           <button class="close-button js-close-button" type="submit">Close</button>
