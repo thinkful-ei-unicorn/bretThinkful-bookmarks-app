@@ -213,7 +213,7 @@ const bookmarkList = (function(){
     handleAddBookmarkClicked();
     handleDeleteBookmarkClicked();
     handleEditBookmarkClicked();
-    //handleEditBookmarkSubmit();
+
   }
 
   return {
