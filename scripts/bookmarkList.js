@@ -5,7 +5,7 @@ const bookmarkList = (function(){
   function generateBookmarkElement(item) {
     return `
     <li class="bookmark-list-items js-bookmark-list-items" data-item-id="${item.id}">
-      <h3 class="list-title js-list-title">${item.title}</h3>
+      <h2 class="list-title js-list-title">${item.title}</h2>
       <section class="star-rating js-star-rating">
         <p class="star-number js-star-number">${item.rating} Stars</p>
       </section>
