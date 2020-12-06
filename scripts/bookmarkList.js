@@ -75,7 +75,7 @@ const bookmarkList = (function(){
                 <label for="2-stars">2</label>
                 <input type="radio" id="2-stars"
                   name="rate" value="2">
-                <label for="1-stars">1
+                <label for="1-stars">1</label>
                 <input type="radio" id="1-star"
                   name="rate" value="1">
               </fieldset>
