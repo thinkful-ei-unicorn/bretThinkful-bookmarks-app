@@ -48,6 +48,9 @@ Follow a11y best practices
 A link to my Live GitHub Pages
 https://thinkful-ei-unicorn.github.io/bretThinkful-bookmarks-app/
 
+Application Overview
+User can Add, Delete, Filter, Edit and Visit all there bookmarks they create by:
+
 *User can add a bookmark by selecting add bookmark option
 *User must then provide Title, URL, then Rating a description is optional
 *User can access website by clicking on their bookmark tab and selecting Visit
