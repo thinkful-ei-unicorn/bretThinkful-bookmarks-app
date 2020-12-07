@@ -22,6 +22,7 @@ const store =(function(){
       return item.rating >= val;
     });
   }
+
   
 
   const setItemEditing = function (id, isEditing) {
