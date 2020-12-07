@@ -18,7 +18,7 @@ const store =(function(){
     
     
   function filterByRating(val) {
-    this.items = this.items.filter( item => {
+    this.items = this.items.filter(item => {
       return item.rating >= val;
     });
   }
