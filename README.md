@@ -45,5 +45,12 @@ Follow a11y best practices
 
 (Extension) Follow AJAX and a11y best practices
 
-A link to my GitHub Pages
+A link to my Live GitHub Pages
 https://thinkful-ei-unicorn.github.io/bretThinkful-bookmarks-app/
+
+*User can add a bookmark by selecting add bookmark option
+*User must then provide Title, URL, then Rating a description is optional
+*User can access website by clicking on their bookmark tab and selecting Visit
+*User also has the ability to edit or delete their bookmarks from the list
+*User can filter their options by selecting where is says minimum rating 
+by selecting the dropdown and choosing between 1 and 5 stars

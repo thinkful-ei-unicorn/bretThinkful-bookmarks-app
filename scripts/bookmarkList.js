@@ -158,8 +158,20 @@ const bookmarkList = (function(){
 
 
   function handleEditBookmarkSubmit(){
-    $('.js-bookmark-list').on('submit', '.edit')
+    $('.js-bookmark-list').on('submit', '.edit',  event =>{
+      const id = getItemIdFromElement(event.currentTarget);
+      let item = store.findById(id);
+      console.log(id);
+      $(event.currentTarget).remove();
+      if(item.id === id) {
+        const expandView = generateExpandedView(item);
+        $('.js-bookmark-list').prepend(expandView);
+        store.expanded = true;
+      }
+    });
   }
+
+  
  
   function handleEditBookmarkClicked(){
     $('.js-bookmark-list').on('click', '.js-edit-bookmark-button', event =>{
@@ -214,6 +226,7 @@ const bookmarkList = (function(){
     handleAddBookmarkClicked();
     handleDeleteBookmarkClicked();
     handleEditBookmarkClicked();
+    handleEditBookmarkSubmit();
 
   }
 
