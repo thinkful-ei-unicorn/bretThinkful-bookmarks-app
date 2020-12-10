@@ -44,9 +44,7 @@
     font-size: 100%;
     background-color: rgb(228, 134, 13)
   }
-#ratings {
-  margin-left: -3px
-}
+
   
   input[type=submit] {
     height: 50px;
