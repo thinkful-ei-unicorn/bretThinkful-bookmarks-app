@@ -64,21 +64,21 @@ const bookmarkList = (function(){
             <div class="add-bookmark rating-button js-rating-buttons">
               <fieldset>
                 <Legend required>Stars</Legend>
-                <label for="5-stars">5</label>
                 <input type="radio" id="5-stars"
                   name="rate" value="5" required>
-                <label for="4-stars">4</label>
+                <label for="5-stars">5</label>
                 <input type="radio" id="4-stars"
                   name="rate" value="4">
-                <label for="3-stars">3</label>
+                <label for="4-stars">4</label>
                 <input type="radio" id="3-stars"
                   name="rate" value="3">
-                <label for="2-stars">2</label>
+                <label for="3-stars">3</label>
                 <input type="radio" id="2-stars"
                   name="rate" value="2">
-                <label for="1-stars">1</label>
+                <label for="2-stars">2</label>
                 <input type="radio" id="1-star"
                   name="rate" value="1">
+                <label for="1-star">1</label>
               </fieldset>
             </div>
           </div>
